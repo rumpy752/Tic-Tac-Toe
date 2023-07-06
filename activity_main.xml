@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    date: 2023-06-25
+    author: Jaime Rump
+    file: activity_main.xml
+    descp: Handles the layout of the main activity screen -->
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:padding="30dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:lineHeight="85dp"
+        android:textSize="40dp" />
+
+    <ListView
+        android:id="@+id/listview_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+
+        android:textAlignment="center" />
+
+</LinearLayout>
